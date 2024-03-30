@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "inter", sans-serif;
+}
+
+.login-page {
+  background-image: url(background\ image\ 1.svg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 424px;
+  height: 489px;
+  gap: 12px;
+  border: 1px solid #f4f4f4;
+  border-radius: 8px;
+}
+
+.login-card .logo img {
+  margin-top: 30px;
+}
+.login-card h2 {
+  color: #333333;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+.login-card > span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-card .login-details input {
+  font-size: 16px;
+  font-weight: 400;
+  color: #667085;
+  width: 360px;
+  height: 44px;
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin: 15px 0px 10px;
+  cursor: pointer;
+}
+
+.login-card button {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #14c8b8;
+  width: 360px;
+  height: 44px;
+  border: 1px solid #46b19b;
+  border-radius: 8px;
+  padding: 10px 14px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.go-to-sign-page span:first-child {
+  font-size: 14px;
+  color: #333333;
+  font-weight: 400;
+}
+
+.go-to-sign-page a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #14c8b8;
+  text-decoration: none;
+}

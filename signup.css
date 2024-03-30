@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "inter", sans-serif;
+}
+
+.sign-up-page {
+  background-image: url(background\ image\ 1.svg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-card {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 424px;
+  height: 367px;
+  gap: 30px;
+  border: 1px solid #f4f4f4;
+  border-radius: 8px;
+}
+
+.sign-up-card .logo img {
+  margin-top: 20px;
+}
+.sign-up-card h2 {
+  color: #333333;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 38px;
+  text-align: center;
+}
+
+.sign-up-card .mobile-Num-Container input {
+  font-size: 16px;
+  font-weight: 400;
+  color: #667085;
+  width: 360px;
+  height: 44px;
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.sign-up-card .mobile-Num-Container button {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #14c8b8;
+  width: 360px;
+  height: 44px;
+  border: 1px solid #46b19b;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+.go-to-login-page span:first-child {
+  font-size: 14px;
+  color: #333333;
+  font-weight: 400;
+}
+
+.go-to-login-page a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #14c8b8;
+  text-decoration: none;
+}

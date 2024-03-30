@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "inter";
+}
+
+.container {
+  display: flex;
+}
+
+.left-page {
+  width: 45vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.map {
+  width: 55vw;
+  height: 100vh;
+  background-image: url(map.svg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  margin: 30px;
+  margin-right: auto;
+}
+
+.select-gas {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30vh;
+  gap: 10px;
+}
+
+.select-gas h4 {
+  color: #333333;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 130px;
+}
+
+.select-gas span {
+  color: #344054;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.left-page .select-gas-option select {
+  font-size: 16px;
+  font-weight: 400;
+  color: #667085;
+  width: 360px;
+  height: 44px;
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  padding: 10px 14px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.left-page button {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #14c8b8;
+  width: 360px;
+  height: 44px;
+  border: 1px solid #46b19b;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}

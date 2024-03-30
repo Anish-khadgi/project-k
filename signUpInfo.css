@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "inter";
+}
+.sign-up-info-page {
+  background-image: url(background\ image\ 1.svg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-info-card {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 424px;
+  height: 531px;
+  gap: 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 8px;
+}
+
+.sign-up-info-card .logo img {
+  margin-top: 20px;
+}
+.sign-up-info-card h2 {
+  color: #333333;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 38px;
+  text-align: center;
+}
+
+.sign-up-info-card .details-Container input {
+  font-size: 16px;
+  font-weight: 400;
+  color: #667085;
+  width: 360px;
+  height: 44px;
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+.sign-up-info-card .details-Container button {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #14c8b8;
+  width: 360px;
+  height: 44px;
+  border: 1px solid #46b19b;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-top: 16px;
+  cursor: pointer;
+}

@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inter";
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .left-page {
+    width: 45vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+  }
+  
+  .map {
+    width: 55vw;
+    height: 100vh;
+    background-image: url(map.svg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .logo {
+    margin: 30px;
+    margin-right: auto;
+  }
+  
+  .select-gas {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+    gap: 10px;
+  }
+  
+  .select-gas h4 {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 190px;
+  }
+  
+  .info-container input {
+    font-size: 16px;
+    font-weight: 400;
+    color: #667085;
+    width: 360px;
+    height: 44px;
+    border: 1px solid #d0d5dd;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin: 10px 0px;
+    cursor: pointer;
+  }
+ 
+  .location-btn > button {
+    font-size: 16px;
+    font-weight: 600;
+    color: #344054;
+    background-color: #ffffff;
+    width: 360px;
+    height: 44px;
+    border: 1px solid #d0d5dd;
+    border-radius: 8px;
+    margin: 10px 0px;
+    cursor: pointer;
+    text-align: center;
+  }
+  .location-btn > button > img {
+    text-align: center;
+    padding-right: 10px;
+    height: 14px;
+  }
+  
+  
+  .left-page > .btn > button{
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #14c8b8;
+    width: 360px;
+    height: 44px;
+    border: 1px solid #46b19b;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
